@@ -1,0 +1,152 @@
+/* css/style.css */
+
+ .background-image {
+    background-image: url('/image/stu7.avif');
+    background-size: cover; /* Cover the entire container    stu7.avif */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height of the container to be the height of the viewport */
+    /*display: flex; /* Use flexbox to center content vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    /*color: #ffffff; /* Set text color to be visible against the background */
+}
+
+
+.col{
+	
+	
+	background: #607d8b;
+}
+
+.hed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures that the content is centered vertically on the page */
+}
+
+.title {
+    color:    #1a237e;
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    font-size: 30px; /* Change font size as needed */
+    text-align: center;
+    cursor: pointer; /* Change cursor on hover */
+    transition: color 0.9s; /* Smooth transition for hover effect */
+}
+
+.title:hover {
+    color: #ffc107; /* Change to desired hover color */
+}
+
+.my-container {
+	
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+	}
+	
+	 .left-image {
+            position: absolute;
+            background-color: transparent;
+            top: 60%;
+            left: 200px;
+            transform: translateY(-50%);
+            width: 250px; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+             z-index: 0
+        }
+	
+	.form-box {
+   background-color: transparent; /* Light gray background */
+    padding: 20px;
+    /*border-radius: 10px;*/
+   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  Box shadow for depth */
+}
+
+.add {
+    text-align: center;
+    text-decoration: blink;
+   text-shadow: 2px 2px 4px #000000;
+    font-family: Arial, sans-serif; /* Change to your preferred font family */
+    font-style: italic; /* Change to your preferred font style */
+   
+   
+}
+
+.submit-button{
+	
+	/* margin: 20px auto; */
+	 margin-left: 70px;
+	 font-size: 20px; 
+	 font-weight:bold; 
+	 background-color: #00bcd4;
+	 border: none; 
+	 padding: 10px 20px;
+	 border-radius: 20%; 
+	 cursor: pointer;
+	  transition: background-color 0.5s;
+}
+
+
+ .submit-button:hover {
+            background-color: #0097a7; /* Change background color on hover */
+        }
+/*
+
+dead start added
+*/
+ .dead {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 70vh; /* Adjust the height as needed */
+  }
+  
+  .button {
+      margin-top: 50px; /* Add margin to the top */
+      font-size: 16px;
+      font-weight: bold;
+      background-color: #007bff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: #ffffff;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+      background-color: #0056b3;
+  }
+  
+  .bold-input {
+  font-weight: bold;
+}
+
+/*****button container*****/
+.button-container {
+        max-width: 900px; /* Max width to limit the width of the container */
+        margin: 20px auto; /* Center the container horizontally with some margin */
+        padding: 40px; /* Padding inside the container */
+        background-color: #ff8a65; /* Background color */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);/* Box shadow for depth */
+        border: 2px solid #212121; 
+        position: absolute; /* Position the container absolutely */
+    top: 50%; /* Adjust the vertical position */
+    left: 50%; /* Position it 50% from the left of the container */
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    }
+  /*****List styling****/
+   .styled-list li {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+  }  
+    
+
+
